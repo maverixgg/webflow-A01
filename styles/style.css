@@ -15,6 +15,13 @@
   font-style: normal;
 }
 
+.btn-primary {
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    height: 48px;
+}
+
 .font-bold {
     font-weight: bolder;
 }
@@ -54,10 +61,6 @@ nav h1{
 
 nav button{
     width: 132px;
-    height: 48px;
-    border-radius: 10px;
-    font-size: 16px;
-    border: none;
 }
 
 .banner .heading{
@@ -66,14 +69,34 @@ nav button{
 
 .banner-description button{
     width: 174px;
-    height: 48px;
-    font-size: 16px;
-    border-radius: 10px;
-    border: none;
     margin-top: 37px;
 }
 
 .banner-description {
     text-align: center;
     margin: 158px auto;
+}
+
+.action-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 116px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side button{
+    width: 230px;
+
+}
+
+.action .right-side img{
+    border-radius: 48px;
+}
+
+.left-side .subtitle{
+    font-weight: lighter;
+    max-width: 520px;
+    margin: 18px 0px;
 }
